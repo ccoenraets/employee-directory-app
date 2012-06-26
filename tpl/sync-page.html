@@ -1,0 +1,35 @@
+<div class="header" xmlns="http://www.w3.org/1999/html">
+    <a href="#" class="header-button header-button-left header-back-button">
+        <button>Back</button>
+    </a>
+    <a href="#" class="header-button header-button-icon header-button-right search" id="view-home-refresh">
+        <button><img src="css/images/search-icon.png" alt="Refresh" width="16" height="16"></button>
+    </a>
+
+    <h1>Synchronization</h1>
+</div>
+
+<div class="scroll striped" style="top:44px;">
+<div style="padding:12px; padding-right: 26px;">
+    <span>Server synchronization endpoint:</span><br/>
+    <input id="syncURL" style="width:100%;font-size: 14px;border: solid 1px #888888;" /><br/><br/>
+    <a href="#" class="normal-button sync">
+        <button style="width:286px;">Synchronize</button><br/><br/>
+    </a>
+
+    <div style="height: 50px;">
+        <div id="hourglass" style="display: none;padding-left:50px;">
+            <img src="img/ajax-loader.gif" style="float:left;"/><div style="padding-top:8px;padding-left:40px;">Synchronizing...</div>
+        </div>
+    </div>
+
+    <br/>
+    <hr style="margin-bottom: 20px;width:100%;"/>
+    <a href="#" class="normal-button reset">
+        <button style="width:286px;">Reset Local Database</button>
+    </a>
+    <br/>
+    <p style="font-size: 13px">You only need to reset the local database when switching to another directory (i.e. sample to actual directory), or in the unexpected situation where the database has become corrupted and
+    doesn't synchronize correctly.</p>
+</div>
+</div>
